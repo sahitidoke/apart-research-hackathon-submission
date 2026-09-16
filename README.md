@@ -1,6 +1,10 @@
-# Agent swarming: browser-mediated communication experiments
+# Agent swarming: multi-agent communication experiments
 
-Code accompanying an Apart Research hackathon project on whether independently prompted document-QA agents discover, read, and reuse one another's notebook entries. The environment is a host-side browser simulator: agents use local document and notebook routes; host code performs model calls, scheduling, accounting, checkpointing, and evaluation.
+Code accompanying an Apart Research hackathon project on multi-agent communication, in two parts.
+
+**Browser-mediated discovery** asks whether independently prompted document-QA agents discover, read, and reuse one another's notebook entries. The environment is a host-side browser simulator: agents use local document and notebook routes; host code performs model calls, scheduling, accounting, checkpointing, and evaluation. This is the larger part and most of what follows describes it.
+
+**Answer-provenance auditing** (`orchestrator/provenance/`) asks a different question of a different collective: given a planner and two workers on an explicit message bus, can you tell which agents *deferred to the planner* from which *reasoned from what they held* — without reading a chain of thought? See its [findings](orchestrator/provenance/FINDINGS.md) and [method](orchestrator/provenance/APPROACH.md).
 
 This snapshot includes the working implementation, including files that were uncommitted in the development repository. It is a code release, not a release of private transcripts or a claim of independent result reproduction. `SUBMISSION_MANIFEST.json` records source and released hashes. Personal paths and the Modal profile name have been replaced with public placeholders.
 
@@ -24,6 +28,7 @@ The lock file includes the host-side Modal and test dependencies. Model weights,
 - `evaluate_saved_runs.py` and `EVALUATION.md`: saved-artifact evaluation tools and evidence definitions.
 - `orchestrator/containment_diagnostic/`, `orchestrator/transfer_diagnostic/`, and `slurm/`: earlier diagnostic and cluster runners, retained as implementation context.
 - `corpora/yellowstone-records/`: a small NPS corpus, offline builder, provenance and task files. This is an earlier demonstration corpus, not the final suite's dataset.
+- `orchestrator/provenance/`: the second experiment, self-contained and independent of the browser simulator. `episode.py` runs the collective over a message bus, `replay.py` re-runs an episode with individual messages perturbed, `audit.py` scores the result. `README.md` is the method, `FINDINGS.md` the results, `APPENDIX.md` the tables, `APPROACH.md` the short version.
 
 The module-level documentation describes several historical configurations. It is not a unified statement of the final protocol. `EXPERIMENT_PLAN.md` is an earlier research plan; proposals in it should not be read as completed work.
 
@@ -49,14 +54,20 @@ A focused, model-free check command for the included local fixture is:
 uv run --frozen python -m pytest orchestrator/simulated_web/test_simulated_web.py tests/test_yellowstone_corpus.py -q
 ```
 
-This command is provided for maintainers and was **not run while preparing this release**. Static Python parsing, JSON parsing, shell syntax, import-target, manifest, size, and targeted secret-pattern checks are recorded in `VALIDATION.md`. Some historical integration tests refer to excluded private checkpoints or research-log inputs; the complete test collection is not claimed to run unchanged without those artifacts.
+That command is provided for maintainers and was **not run while preparing this release**. The provenance suite is the exception and was run:
 
-Cloud launchers default to validation. `--launch` spends compute and `--download-model` permits weight downloads. Use unique run IDs, configure your own credentials, and inspect the selected module before launch. No model calls, test suite, services, or cloud jobs were run to prepare this snapshot.
+```sh
+python -m unittest discover -s orchestrator/provenance -p 'test_*.py'
+```
+
+346 tests, a few seconds, and it needs nothing installed — no virtualenv, no model, no GPU, no download. It is also collected by `python -m pytest` from the repository root. Static Python parsing, JSON parsing, shell syntax, import-target, manifest, size, and targeted secret-pattern checks are recorded in `VALIDATION.md`. Some historical integration tests refer to excluded private checkpoints or research-log inputs; the complete test collection is not claimed to run unchanged without those artifacts.
+
+Cloud launchers default to validation. `--launch` spends compute and `--download-model` permits weight downloads. Use unique run IDs, configure your own credentials, and inspect the selected module before launch. **No model calls, services, or cloud jobs were run to prepare this snapshot**, and no GPU was billed. The offline provenance test suite above was run; nothing else was.
 
 ## Data, rights, and interpretation
 
 Original NPS source text is accompanied by its existing source URLs, retrieval metadata and rights notice in the corpus README and manifest. No images are included. Tiny fictional fixtures support software tests. A small host-only replay fixture contains explicitly labelled observed and synthetic snippets for regression testing; it is not a full run or independent result.
 
-The MuSiQue-derived final dataset, private run artifacts, journals, checkpoints, model weights, and manuscript are not included. Dataset and checkpoint hashes describe omitted inputs without granting rights to them. No new license is assigned to the project's code by this snapshot; third-party source material retains its existing terms.
+The MuSiQue-derived final dataset, private run artifacts, journals, checkpoints, model weights, and manuscript are not included. Dataset and checkpoint hashes describe omitted inputs without granting rights to them. One narrow exception: `orchestrator/provenance/figures/` holds eight rendered figures from provenance runs `prov-ind` seeds 0 and 1, embedded in `FINDINGS.md`. The `audit.json` files they were drawn from are *not* included, so those figures cannot be re-rendered from this repository — `reproducibility/README.md` says so rather than shipping a command that fails. No new license is assigned to the project's code by this snapshot; third-party source material retains its existing terms.
 
 The simulator is not an operating-system sandbox. Model-generated text and browser pages are untrusted; answer keys, settings, private logs and evaluation artifacts must remain outside agent-visible routes. The code and fixtures alone do not establish reliable collaboration, performance improvement, harmful collusion, or successful containment.
