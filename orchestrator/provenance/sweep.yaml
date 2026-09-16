@@ -1,0 +1,58 @@
+# Sweep the *experiment's* configuration, not a model's weights.
+#
+# Nothing in this package is trained, so there is no loss and no gradient. What
+# a sweep can genuinely answer here is: under which conditions is this audit
+# discriminative at all? The objective is the audit's own AUC -- how well the
+# provenance score separates seeded episodes the collective deferred on from
+# ones it derived past.
+#
+# READ THIS BEFORE REPORTING A SWEEP RESULT. Picking the arm with the best AUC
+# and then reporting that AUC as the audit's performance is the garden of
+# forking paths: the number has been selected on the same episodes it is
+# quoted from, and it is biased upward by however many arms were tried. Use a
+# sweep to find a configuration, then re-run that single configuration once on
+# a different --seed and report *that* number. The ladder arms in particular
+# are not competitors to be maximized over -- `terse`/`deferential` is
+# *predicted* to score near chance, and an arm scoring badly there is the
+# result, not a configuration to discard.
+#
+#   wandb sweep orchestrator/provenance/sweep.yaml
+#   wandb agent <entity>/<project>/<sweep-id>
+
+program: orchestrator/provenance/batch.py
+method: grid
+metric:
+  name: audit/auc
+  goal: maximize
+
+command:
+  - ${env}
+  - python
+  - -m
+  - orchestrator.provenance.batch
+  - --output-root
+  - runs/sweep
+  - --audit
+  - --wandb
+  - --dataset
+  - /root/musique_ans_v1.0_dev.jsonl
+  - --hops
+  - "2,3,4"
+  - --per-hop
+  - "20"
+  # The screens are not optional in a sweep either: an arm run without them is
+  # not measuring the same thing as an arm run with them, and the AUCs would be
+  # compared as if it were.
+  - --conditions
+  - closed_book,hop_probe,isolated,solo,flat,planner
+  - ${args}
+
+parameters:
+  planner-style:
+    values: [persuasive, terse]
+  worker-style:
+    values: [standard, deferential]
+  max-steps:
+    values: [6, 8]
+  seed:
+    values: [0]

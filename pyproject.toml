@@ -8,7 +8,7 @@ dependencies = [
 ]
 
 [tool.pytest.ini_options]
-testpaths = ["tests", "orchestrator/simulated_web"]
+testpaths = ["tests", "orchestrator/simulated_web", "orchestrator/provenance"]
 
 [dependency-groups]
 dev = [
