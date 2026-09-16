@@ -1,0 +1,97 @@
+{
+  "publisher": "U.S. National Park Service",
+  "rights_source": "https://www.nps.gov/aboutus/disclaimer.htm",
+  "extraction": "News release usa-prose article text, excluding initial contact metadata, tags, site navigation, images and scripts; whitespace normalized. Aggregated flood release retains dated update sections. Text is an as-retrieved snapshot, not an assertion that historical pages never changed.",
+  "sources": [
+    {
+      "id": "22010",
+      "title": "Yellowstone road improvement projects in 2022; $155 million invested to improve safety, access and experience on park roads Completed 2021 projects; Tower-Roosevelt to Chittenden Road to reopen and visitor services at North Entrance enhanced",
+      "source_url": "https://www.nps.gov/yell/learn/news/22010.htm",
+      "release_date_label": "February 24, 2022",
+      "retrieved_at": "2026-09-06T06:47:00.608870+00:00",
+      "raw_html_sha256": "3dd7700e2d0d86edf74c5b7fdbe37184a0c5b113f7e85849872353d968c591c7",
+      "text_path": "sources/22010.txt",
+      "text_sha256": "0eb1d59028c93abe5b6c06695af89d1d510981861825fa3d5a60a78d6c52b950"
+    },
+    {
+      "id": "22037",
+      "title": "Yellowstone visitation statistics for October 2022",
+      "source_url": "https://www.nps.gov/yell/learn/news/22037.htm",
+      "release_date_label": "November 15, 2022",
+      "retrieved_at": "2026-09-06T06:47:00.609283+00:00",
+      "raw_html_sha256": "ddf05daef7218a394f4a8afde73368ac44286d10eebda24af1b4b330b9c1d254",
+      "text_path": "sources/22037.txt",
+      "text_sha256": "2583f4aa93018da0d3bfc1998e672beb00bc6999db25d32bb041cd9146e4d7a8"
+    },
+    {
+      "id": "220613",
+      "title": "Flood Recovery Updates: Yellowstone's North Entrance and road to Mammoth Hot Springs to open TODAY, Oct. 30",
+      "source_url": "https://www.nps.gov/yell/learn/news/220613.htm",
+      "release_date_label": "October 28, 2022",
+      "retrieved_at": "2026-09-06T06:47:00.612940+00:00",
+      "raw_html_sha256": "5bf45c58aee12ce09272006e0ed85c3f1f77cfdf1e97ef8befa380d0187c551f",
+      "text_path": "sources/220613.txt",
+      "text_sha256": "7b0ffbc48a5f0efe6320a718b78593438bb3880cdb447e2d2c24927086c6aa1d"
+    },
+    {
+      "id": "221033",
+      "title": "Yellowstone visitation statistics for September 2022",
+      "source_url": "https://www.nps.gov/yell/learn/news/221033.htm",
+      "release_date_label": "October 17, 2022",
+      "retrieved_at": "2026-09-06T06:47:00.613333+00:00",
+      "raw_html_sha256": "558be56134937a1f6710bf6db1f5dbd554ed708efd227924dadbc98c4e58498d",
+      "text_path": "sources/221033.txt",
+      "text_sha256": "ad431ca5a47e2e6c3578c6532061a0a482dd87b7315b840240c3b2df3c2d4301"
+    },
+    {
+      "id": "23003",
+      "title": "Yellowstone visitation summary for 2022",
+      "source_url": "https://www.nps.gov/yell/learn/news/23003.htm",
+      "release_date_label": "February 28, 2023",
+      "retrieved_at": "2026-09-06T06:47:00.613643+00:00",
+      "raw_html_sha256": "2f1cf494a09b08536f81184b7ef1157ca45cfebedf1568a2ecd5097e745eeaa5",
+      "text_path": "sources/23003.txt",
+      "text_sha256": "ec16d669dd30e863464f8eaab9ef509fd04ebc5ea8476bd38467a9f1575d1cc2"
+    },
+    {
+      "id": "23004",
+      "title": "Yellowstone National Park releases 2023 State of the Park report",
+      "source_url": "https://www.nps.gov/yell/learn/news/23004.htm",
+      "release_date_label": "March 1, 2023",
+      "retrieved_at": "2026-09-06T06:47:00.614572+00:00",
+      "raw_html_sha256": "54487f0d251ac4ad1643c062f303efbfb39659260548ed049a99a8af7866f93a",
+      "text_path": "sources/23004.txt",
+      "text_sha256": "143438b50f7930a56fe02b9071a3b5999acf9db1c860fcd3e592423f3ec88e44"
+    },
+    {
+      "id": "23008",
+      "title": "Yellowstone National Park receives funding from Great American Outdoors Act for $118 million replacement of Yellowstone River Bridge",
+      "source_url": "https://www.nps.gov/yell/learn/news/23008.htm",
+      "release_date_label": "March 23, 2023",
+      "retrieved_at": "2026-09-06T06:47:00.614899+00:00",
+      "raw_html_sha256": "672c8de86f13f6a42e569f02762ea3d38c186fa6786296d267e2fec97e6207af",
+      "text_path": "sources/23008.txt",
+      "text_sha256": "b5cd354b3fe89cf8f26b1dac19a5818a2ef83b1f1cd2975f4268bf6deb5d825d"
+    },
+    {
+      "id": "23009",
+      "title": "Yellowstone National Park 2023 road improvement projects",
+      "source_url": "https://www.nps.gov/yell/learn/news/23009.htm",
+      "release_date_label": "March 27, 2023",
+      "retrieved_at": "2026-09-06T06:47:00.615365+00:00",
+      "raw_html_sha256": "e6b587e15f3121ce0d1420fdfb27aa4d67585665832707e6e8794920afaf48d6",
+      "text_path": "sources/23009.txt",
+      "text_sha256": "18c54d6910fefe548bfe3149c3b80bc5a656d86b9c8efe194c4c7bd4eea5a4d1"
+    },
+    {
+      "id": "24014",
+      "title": "Yellowstone National Park 2024 road improvement projects",
+      "source_url": "https://www.nps.gov/yell/learn/news/24014.htm",
+      "release_date_label": "April 18, 2024",
+      "retrieved_at": "2026-09-06T06:47:00.615736+00:00",
+      "raw_html_sha256": "5f5b8841d6690fa520dc9e291de4a1d20d03c756db9e846d0c4c6b4729df3686",
+      "text_path": "sources/24014.txt",
+      "text_sha256": "b99f481c1f8806b68f4b1b4d634e3d3b728f977a7312429443e0ad5248cad34d"
+    }
+  ]
+}

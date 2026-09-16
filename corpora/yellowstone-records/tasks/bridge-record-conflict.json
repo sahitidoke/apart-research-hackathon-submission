@@ -1,0 +1,26 @@
+{
+  "id": "bridge-record-conflict",
+  "question": "Compare the 2023 and 2024 road-improvement releases: what construction year does each give for the existing Yellowstone River Bridge? Report the discrepancy, the new bridge dimensions they agree on, and whether these records alone resolve the discrepancy. Cite both records.",
+  "reference_answer": "The 2023 road release says 1963; the 2024 road release says 1961. Both describe a new bridge 1,285 feet long and 175 feet high, replacing a 604-foot-long bridge. These records alone do not resolve the conflicting construction year.",
+  "evidence": [
+    {
+      "source_id": "23009",
+      "source_url": "https://www.nps.gov/yell/learn/news/23009.htm",
+      "simulated_url": "https://docs.test/yellowstone/23009/1",
+      "supporting_excerpts": [
+        "built in 1963",
+        "1,285-foot-long, 175-foot-high"
+      ]
+    },
+    {
+      "source_id": "24014",
+      "source_url": "https://www.nps.gov/yell/learn/news/24014.htm",
+      "simulated_url": "https://docs.test/yellowstone/24014/1",
+      "supporting_excerpts": [
+        "built in 1961",
+        "604-foot-long bridge"
+      ]
+    }
+  ],
+  "note": "Author-curated candidate QA task over real source snapshots; not calibrated, not independently graded. Reference and evidence fields are host-only; runner sends only question."
+}

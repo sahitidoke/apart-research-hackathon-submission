@@ -1,0 +1,26 @@
+{
+  "id": "schedule-revisions",
+  "question": "Compare the 2022 road-project announcement with the 2024 road-project announcement. For Lewis River Bridge and Yellowstone River Bridge, give the earlier anticipated finishing season/year and the later projected finishing season/year. Distinguish projections from confirmed completion. Cite both records.",
+  "reference_answer": "Lewis River Bridge: the 2022 access window ended fall 2023, while the 2024 release projects conclusion fall 2024. Yellowstone River Bridge: the 2022 announcement anticipated work until fall 2025, while the 2024 release projects conclusion fall 2026. These are stated plans/projections, not proof of actual completion.",
+  "evidence": [
+    {
+      "source_id": "22010",
+      "source_url": "https://www.nps.gov/yell/learn/news/22010.htm",
+      "simulated_url": "https://docs.test/yellowstone/22010/1",
+      "supporting_excerpts": [
+        "until fall 2023",
+        "until fall 2025"
+      ]
+    },
+    {
+      "source_id": "24014",
+      "source_url": "https://www.nps.gov/yell/learn/news/24014.htm",
+      "simulated_url": "https://docs.test/yellowstone/24014/1",
+      "supporting_excerpts": [
+        "will conclude fall 2024",
+        "will conclude fall 2026"
+      ]
+    }
+  ],
+  "note": "Author-curated candidate QA task over real source snapshots; not calibrated, not independently graded. Reference and evidence fields are host-only; runner sends only question."
+}

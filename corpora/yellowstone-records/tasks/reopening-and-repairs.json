@@ -1,0 +1,27 @@
+{
+  "id": "reopening-and-repairs",
+  "question": "Using the 2022 annual visitation summary and 2023 road-improvement release, state when the Northeast and North entrances reopened to regular visitor vehicles in 2022, which reopened first and by how many days, and name at least three types of Northeast Entrance Road flood-recovery work still planned for 2023. Explain whether reopening meant all repair work was finished. Cite both records.",
+  "reference_answer": "Northeast reopened October 15, 2022; North reopened October 30, 2022, 15 days later. Work planned for 2023 included Lamar Canyon two-lane realignment completion, second-lift paving north of Trout Lake Trailhead, streambank stabilization, Pebble Creek Campground/Warm Creek Picnic Area work, and drainage/guardrail replacement. Reopening to traffic did not mean all repair work was complete.",
+  "evidence": [
+    {
+      "source_id": "23003",
+      "source_url": "https://www.nps.gov/yell/learn/news/23003.htm",
+      "simulated_url": "https://docs.test/yellowstone/23003/1",
+      "supporting_excerpts": [
+        "Oct. 15",
+        "Oct. 30"
+      ]
+    },
+    {
+      "source_id": "23009",
+      "source_url": "https://www.nps.gov/yell/learn/news/23009.htm",
+      "simulated_url": "https://docs.test/yellowstone/23009/1",
+      "supporting_excerpts": [
+        "two-lane realignment in Lamar Canyon",
+        "paving a second lift",
+        "stabilization of streambanks"
+      ]
+    }
+  ],
+  "note": "Author-curated candidate QA task over real source snapshots; not calibrated, not independently graded. Reference and evidence fields are host-only; runner sends only question."
+}

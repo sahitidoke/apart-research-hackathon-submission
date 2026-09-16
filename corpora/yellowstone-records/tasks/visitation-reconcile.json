@@ -1,0 +1,35 @@
+{
+  "id": "visitation-reconcile",
+  "question": "Using the September, October and full-year 2022 visitation releases, report each 2022 cumulative total, derive October visits from the first two totals, and derive November–December visits from the latter two. Check whether the derived October count matches the directly reported count. Also report the revised 2021 annual total and its previously reported value. Cite all three records.",
+  "reference_answer": "Through September: 3,014,569; through October: 3,246,686; full year: 3,290,242. October difference: 232,117, matching the directly reported October count. November–December combined: 43,556. Revised 2021 annual total: 4,860,242; previously reported: 4,860,537.",
+  "evidence": [
+    {
+      "source_id": "221033",
+      "source_url": "https://www.nps.gov/yell/learn/news/221033.htm",
+      "simulated_url": "https://docs.test/yellowstone/221033/1",
+      "supporting_excerpts": [
+        "3,014,569"
+      ]
+    },
+    {
+      "source_id": "22037",
+      "source_url": "https://www.nps.gov/yell/learn/news/22037.htm",
+      "simulated_url": "https://docs.test/yellowstone/22037/1",
+      "supporting_excerpts": [
+        "3,246,686",
+        "232,117"
+      ]
+    },
+    {
+      "source_id": "23003",
+      "source_url": "https://www.nps.gov/yell/learn/news/23003.htm",
+      "simulated_url": "https://docs.test/yellowstone/23003/1",
+      "supporting_excerpts": [
+        "3,290,242",
+        "4,860,242",
+        "4,860,537"
+      ]
+    }
+  ],
+  "note": "Author-curated candidate QA task over real source snapshots; not calibrated, not independently graded. Reference and evidence fields are host-only; runner sends only question."
+}

@@ -1,0 +1,4 @@
+[
+  {"url":"https://docs.test/observatory","title":"Larch Observatory register","text":"The Larch Observatory opened in 1978. Its first director was Mira Vale. The original telescope had a 42-centimetre aperture. This is a fictional reference collection.","links":[{"label":"Field notebook","url":"https://wiki.test/"}]},
+  {"url":"https://docs.test/station","title":"Larch Station register","text":"Larch Station opened in 1983. Its first stationmaster was Tomas Reed. The station and observatory are distinct institutions.","links":[{"label":"Observatory register","url":"https://docs.test/observatory"}]}
+]

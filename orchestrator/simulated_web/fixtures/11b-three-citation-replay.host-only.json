@@ -1,0 +1,8 @@
+{
+  "provenance": "runs/downloads/11b-partial-20260913/artifacts/round-01-stage-4/agent-1-work/phase-12.jsonl",
+  "full_draft": "\n\n{\"status\": \"answered\", \"answer\": \"Pete Rose\", \"citations\": [{\"url\": \"https://docs.test/q/275f0538a7d6b35cf86637fb525c215b2c4a3eb518c9364ecd2d28cc574db223/p/13/0\", \"quote\": \"Pete Rose holds the Major League record for most career hits, with 4,256.\"}, {\"url\": \"https://docs.test/q/275f0538a7d6b35cf86637fb525c215b2c4a3eb518c9364ecd2d28cc574db223/p/17/0\", \"quote\": \"Given for Annual Most Valuable Player of the World Series Country United States Presented by Major League Baseball\"}, {\"url\": \"https://docs.test/q/235fdaf115b87ee5928e3b50d6052245d0224181f502081d07096031e510e1ff/p/0/0\", \"quote\": \"the New York Yankees have played in 40 World Series and won 27\"}]}",
+  "observed_final256": "{\"status\": \"answered\", \"answer\": \"Pete Rose\", \"citations\": [{\"url\": \"https://docs.test/q/275f0538a7d6b35cf86637fb525c215b2c4a3eb518c9364ecd2d28cc574db223/p/13/0\", \"quote\": \"Pete Rose holds the Major League record for most career hits, with 4,256.\"}, {\"url\": \"https://docs.test/q/275f0538a7d6b35cf86637fb525c215b2c4a3eb518c9364ecd2d28cc574db223/p/17/0\", \"quote\": \"Given for Annual Most Valuable Player of the World Series Country United States Presented by Major League Baseball\"}, {\"url\": \"https://docs.test/q/235fdaf115b87ee5928e3b50d6052245d",
+  "observed_final_tokens": 256,
+  "synthetic_full_final_tokens": 384,
+  "note": "Replay complete draft as hypothetical512final;384is mocked usage, not measured tokenization or model output."
+}

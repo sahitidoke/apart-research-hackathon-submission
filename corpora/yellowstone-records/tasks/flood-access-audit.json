@@ -1,0 +1,126 @@
+{
+  "id": "flood-access-audit",
+  "question": "Audit this draft account of Yellowstone's 2022 flood recovery using the local archive. For each numbered claim, give a verdict, a corrected account, and citations to the specific records and dated update sections supporting it. Treat update dates within a record separately from the record's overall release-date label. Do not invent causes or treat forecasts as observed events. Keep the answer under 900 words.\n\n1. A day visitor in a private car with a plate ending in 7 could enter through the West Entrance on June 24, 2022 under the same rules as a visitor with proof of an overnight park reservation. Those plate restrictions still applied on July 3.\n2. By the July 12 update, bicycle access through the North and Northeast entrances meant a normal visitor could cycle the Old Gardiner Road all the way to Mammoth, and regular private-car access had also resumed. State the actual bicycle limits and distinguish that access from the temporary road's rules.\n3. The September 1, October 4 and October 28 updates all gave the same North Entrance reopening date, and the road actually reopened on that date. Reconstruct each forecast and the subsequently observed reopening; calculate how many days the observed date differed from the September target and the October 28 forecast.\n4. The North and Northeast entrances reopened to ordinary visitor vehicles on the same day. Cross-check the actual dates against the annual visitation record and calculate the gap.\n5. Reopening the Northeast Entrance meant flood recovery was finished and no funded road repairs remained for 2023. Explain the status of the Trout Lake road section at the October reopening, then identify the later flood-recovery project's cost, funding source, and at least three remaining work items.\n\nEnd by distinguishing restored visitor access from completion of repairs.",
+  "reference_answer": "1. False. Under the June 18 announcement of ALPS, an ordinary odd-plate day visitor could not enter on even June 24; proof of an overnight reservation provided an exception. ALPS was suspended effective July 2 according to the June 30 update, so it did not apply July 3.\n2. False. July 12 update: bicycle access extended 1 mile from North Entrance to Rescue Creek Trailhead and 6 miles from Northeast Entrance to Barronette Meadows. The entrance roads remained closed to regular visitor vehicles. Old Gardiner Road was a separate active construction zone limited to approved personnel and limited commercial-use authorization holders; normal visitor cars, bicycles, pedestrians and horses were prohibited. Limited entrance access did not authorize passage to Mammoth.\n3. False. September 1: Old Gardiner Road expected passable to regular traffic by October 15. October 4: no later than November 1, with earlier opening possible. October 28: November 1 at 8 a.m. October 30 update: open effective immediately on October 30, after striping October 29. Actual opening was 15 days after October 15 and 2 days before November 1. Forecast updates are not multiple actual opening events.\n4. False. Northeast reopened October 15; North October 30, 15 days later. The 2022 annual visitation release (23003) confirms both dates. The October 13 flood update announced Northeast opening October 15 at 8 a.m.; the October 30 update records North opening.\n5. False. The October 13 update said the Trout Lake section would remain unpaved at October 15 reopening, with paving expected within the upcoming 10 days; traffic could pass under one-way control while repairs continued. Do not assert the forecast paving was actually completed without further evidence. The 2023 road-project release lists Northeast Entrance Road flood recovery at $25 million from the Emergency Relief for Federally Owned Roads Fund: completion of Lamar Canyon two-lane realignment, second-lift paving north of Trout Lake Trailhead, streambank stabilization, Pebble Creek Campground/Warm Creek Picnic Area work, and guardrail/culvert/drainage replacement (at least three required).\nConclusion: restored access, including limited modes or routes, is distinct from unrestricted access and from completion of construction.",
+  "evidence": [
+    {
+      "source_id": "220613",
+      "source_url": "https://www.nps.gov/yell/learn/news/220613.htm",
+      "simulated_url": "https://docs.test/yellowstone/220613/9",
+      "supporting_excerpts": [
+        "Odd-numbered last digits on license plates can enter on odd days of the month."
+      ]
+    },
+    {
+      "source_id": "220613",
+      "source_url": "https://www.nps.gov/yell/learn/news/220613.htm",
+      "simulated_url": "https://docs.test/yellowstone/220613/9",
+      "supporting_excerpts": [
+        "Visitors with proof of overnight reservations in the park will be permitted to enter regardless of license plate number."
+      ]
+    },
+    {
+      "source_id": "220613",
+      "source_url": "https://www.nps.gov/yell/learn/news/220613.htm",
+      "simulated_url": "https://docs.test/yellowstone/220613/9",
+      "supporting_excerpts": [
+        "ALPS will be suspended effective July 2."
+      ]
+    },
+    {
+      "source_id": "220613",
+      "source_url": "https://www.nps.gov/yell/learn/news/220613.htm",
+      "simulated_url": "https://docs.test/yellowstone/220613/8",
+      "supporting_excerpts": [
+        "From the North Entrance, bicyclists can travel 1 mile to the Rescue Creek Trailhead."
+      ]
+    },
+    {
+      "source_id": "220613",
+      "source_url": "https://www.nps.gov/yell/learn/news/220613.htm",
+      "simulated_url": "https://docs.test/yellowstone/220613/8",
+      "supporting_excerpts": [
+        "From the Northeast Entrance, bicyclists can travel 6 miles to the Barronette Meadows area."
+      ]
+    },
+    {
+      "source_id": "220613",
+      "source_url": "https://www.nps.gov/yell/learn/news/220613.htm",
+      "simulated_url": "https://docs.test/yellowstone/220613/8",
+      "supporting_excerpts": [
+        "Normal visitor vehicular traffic, bicycles, pedestrians and horses are not allowed."
+      ]
+    },
+    {
+      "source_id": "220613",
+      "source_url": "https://www.nps.gov/yell/learn/news/220613.htm",
+      "simulated_url": "https://docs.test/yellowstone/220613/3",
+      "supporting_excerpts": [
+        "are expected to be passable for regular traffic by Oct. 15"
+      ]
+    },
+    {
+      "source_id": "220613",
+      "source_url": "https://www.nps.gov/yell/learn/news/220613.htm",
+      "simulated_url": "https://docs.test/yellowstone/220613/2",
+      "supporting_excerpts": [
+        "will open to regular traffic no later than Nov. 1, 2022."
+      ]
+    },
+    {
+      "source_id": "220613",
+      "source_url": "https://www.nps.gov/yell/learn/news/220613.htm",
+      "simulated_url": "https://docs.test/yellowstone/220613/1",
+      "supporting_excerpts": [
+        "will open to regular visitor traffic Tuesday, Nov. 1 at 8 a.m."
+      ]
+    },
+    {
+      "source_id": "220613",
+      "source_url": "https://www.nps.gov/yell/learn/news/220613.htm",
+      "simulated_url": "https://docs.test/yellowstone/220613/1",
+      "supporting_excerpts": [
+        "is open to regular visitor traffic. Contractors completed striping yesterday, Oct. 29."
+      ]
+    },
+    {
+      "source_id": "220613",
+      "source_url": "https://www.nps.gov/yell/learn/news/220613.htm",
+      "simulated_url": "https://docs.test/yellowstone/220613/1",
+      "supporting_excerpts": [
+        "Traffic will be permitted on this segment of road while repairs continue."
+      ]
+    },
+    {
+      "source_id": "23003",
+      "source_url": "https://www.nps.gov/yell/learn/news/23003.htm",
+      "simulated_url": "https://docs.test/yellowstone/23003/1",
+      "supporting_excerpts": [
+        "The Northeast Entrance opened to regular visitor traffic on Oct. 15 and the North Entrance opened on Oct. 30."
+      ]
+    },
+    {
+      "source_id": "23009",
+      "source_url": "https://www.nps.gov/yell/learn/news/23009.htm",
+      "simulated_url": "https://docs.test/yellowstone/23009/1",
+      "supporting_excerpts": [
+        "This project costs $25 million and is funded through the Emergency Relief for Federally Owned Roads Fund."
+      ]
+    }
+  ],
+  "rubric": {
+    "criteria": [
+      "Correct June 24 plate decision and overnight exception.",
+      "Correct July 2 suspension and July 3 implication.",
+      "Both bicycle distances/endpoints and separate Old Gardiner restrictions.",
+      "All three North forecasts distinguished from October 30 observed opening.",
+      "Correct 15-day-late and 2-day-early forecast comparisons.",
+      "Both actual entrance reopening dates, 15-day gap, and annual-record cross-check.",
+      "Trout Lake unfinished status and forecast-versus-observation distinction.",
+      "$25 million, correct fund, and at least three specific 2023 work items.",
+      "Claim-level record/update citations and distinction between access and repairs."
+    ],
+    "grading": "Manually mark each criterion met, partial or missing; record unsupported claims separately. Full success requires all criteria met without material contradictions. A nonblank final response is not task success."
+  },
+  "note": "Prospective difficulty candidate authored from source inspection. Requires navigation across dated sections of a 13-part record plus two other releases. No model calibration performed. All agents receive the same complete question and corpus; no collaboration hints or assigned roles. Keep the 16K context and existing tools fixed during initial calibration; inspect context pressure before interpreting failure as task difficulty."
+}

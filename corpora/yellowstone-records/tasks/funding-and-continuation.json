@@ -1,0 +1,28 @@
+{
+  "id": "funding-and-continuation",
+  "question": "Using the 2023 and 2024 road-improvement releases, list all four 2023 projects with their costs and funding sources, calculate their combined cost, and identify which projects also appear in the 2024 list. Do not infer that an omitted project was completed. Cite both records.",
+  "reference_answer": "2023: Lewis River Bridge $31 million; Old Faithful to West Thumb $43 million; Yellowstone River Bridge $118 million, all funded through the Great American Outdoors Act Legacy Restoration Fund. Northeast Entrance Road flood recovery $25 million, funded through the Emergency Relief for Federally Owned Roads Fund. Total $217 million ($192 million GAOA, $25 million emergency relief). The two bridge projects also appear in the 2024 list. Omission alone does not establish completion.",
+  "evidence": [
+    {
+      "source_id": "23009",
+      "source_url": "https://www.nps.gov/yell/learn/news/23009.htm",
+      "simulated_url": "https://docs.test/yellowstone/23009/1",
+      "supporting_excerpts": [
+        "$31 million",
+        "$43 million",
+        "$118 million",
+        "$25 million",
+        "Emergency Relief for Federally Owned Roads Fund"
+      ]
+    },
+    {
+      "source_id": "24014",
+      "source_url": "https://www.nps.gov/yell/learn/news/24014.htm",
+      "simulated_url": "https://docs.test/yellowstone/24014/1",
+      "supporting_excerpts": [
+        "The Lewis River Bridge and Yellowstone River Bridge projects"
+      ]
+    }
+  ],
+  "note": "Author-curated candidate QA task over real source snapshots; not calibrated, not independently graded. Reference and evidence fields are host-only; runner sends only question."
+}

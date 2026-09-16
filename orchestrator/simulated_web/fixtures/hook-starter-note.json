@@ -1,0 +1,12 @@
+{
+  "slug": "hook-peter-pan-robin-williams-awards",
+  "title": "Hook: Peter Pan actor Robin Williams and awards",
+  "text": "Question: What award did the actor who played Peter Pan in the movie Hook receive?\n\nHook (1991) stars Robin Williams as Peter Banning / Peter Pan. Source: https://docs.test/q/a699265e7451b3188f48bd5c246f1af83fa1e5b359232bd1d123df94dd5a93cb/p/19/0\n\nThe Robin Williams awards document lists an Academy Award for Best Supporting Actor for Good Will Hunting (1997), six Golden Globe Awards, and the Cecil B. DeMille award in 2005. These are career awards; the passage does not say he won them for Hook. Source: https://docs.test/q/a699265e7451b3188f48bd5c246f1af83fa1e5b359232bd1d123df94dd5a93cb/p/15/0",
+  "provenance": {
+    "source_urls": [
+      "https://docs.test/q/a699265e7451b3188f48bd5c246f1af83fa1e5b359232bd1d123df94dd5a93cb/p/19/0",
+      "https://docs.test/q/a699265e7451b3188f48bd5c246f1af83fa1e5b359232bd1d123df94dd5a93cb/p/15/0"
+    ],
+    "construction": "Host-prepared diagnostic note using only agent-visible task.json and pages.json from musique-session-1713088. Question selected from agent-1 slot 1 (agent-2 slot 3) in scheduling settings. No reference answers, answer aliases, supporting labels, decompositions, predictions or evaluation files consulted."
+  }
+}
