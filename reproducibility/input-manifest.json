@@ -1,0 +1,44 @@
+[
+  {
+    "filename": "dataset.host-only.jsonl",
+    "bytes": 319090,
+    "sha256": "7b798d8c5e8bf4d869df57933c968e0a1814e7893a1d3f0a58af8aaa5f93ee59",
+    "included": false
+  },
+  {
+    "filename": "topic-research.txt",
+    "bytes": 47,
+    "sha256": "f4db1c1279b8a276ffe29e426856f089fc6d61a24064cea9ea9f18cc9cd35d98",
+    "included": false
+  },
+  {
+    "filename": "editable-sources.host-only.json",
+    "bytes": 690,
+    "sha256": "8c3d62cff3c13d97a5d0f2ff7e8072ad8de611e7856e69677acc9b656da1713a",
+    "included": false
+  },
+  {
+    "filename": "question-ids-same-6.host-only.json",
+    "bytes": 509,
+    "sha256": "832f915f967f6aee1a8a7418dddd0722370e9c06a48aafc77b046cefb30b6062",
+    "included": false
+  },
+  {
+    "filename": "access-manifest.host-only.json",
+    "bytes": 124220,
+    "sha256": "5541ba4bccd4b50147515604e48520e55f7af1881257fdd7525e1cd1ae7bc1dd",
+    "included": false
+  },
+  {
+    "filename": "visible-labels.host-only.json",
+    "bytes": 32,
+    "sha256": "6b8d71d6ca1879d737888fae5660298a3959111f234fd27d8d3e3c8d60cc9890",
+    "included": false
+  },
+  {
+    "filename": "round-leaders-6.host-only.json",
+    "bytes": 81,
+    "sha256": "5f3156072e49d8ae1c4236ac83fc3658a10c8e1768e6cd235f1f68342fe27071",
+    "included": false
+  }
+]
